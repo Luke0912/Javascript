@@ -7,7 +7,7 @@
 let aName = "shubham"
 
 let bName = aName
-//we said bName value will be given by aName we get a copy in a stack and that is change and original
+//we said bName value will be given by aName we get a copy in a stack and that is changed and original
 // remains unchaged 
 
 bName =  "saumya"

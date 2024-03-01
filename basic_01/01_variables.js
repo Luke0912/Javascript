@@ -36,3 +36,22 @@ console.table([accountEmail,accountId,accountCity,accountPassword]);
 
 
 // Prefer not to use var as its problem in functioanl and block scope
+
+// function final(){
+//     let a = "121"
+//     {
+//         var a = "123"
+//         console.log(a);
+//     }
+// }//example of illeagal shadowing
+
+function a(){
+    let arr = []
+    return ((val)=>{
+        arr.push(val)
+        console.log(arr);
+    })
+}
+
+var z = a()
+z(5)//concept of clousers
